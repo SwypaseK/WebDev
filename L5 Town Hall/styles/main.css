@@ -1,0 +1,112 @@
+/* the styles for the elements */
+/* the reset selector */
+*  {
+    Margin: 0;
+    padding: 0;
+}
+html {
+    background-color: white;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid #931420;
+    width: 600px;
+    background-color: #fffded
+}
+
+/* the styles for the header */
+header { 
+    border-bottom:3px solid #931420;
+    padding-top: 1.5em; 
+    padding-bottom: 2em;
+    background-image: linear-gradient(30deg,#f6bb73 0%,#f6bb73 30%,white 50%,#f6bb73 80%,#f6bb73 100%); 
+}
+header img {
+    float: left;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+header h2{
+    font-size: 170%;
+    color: #800000;
+}
+header h3{
+    font-size: 130%;
+    font-style: italic; 
+    color: #800000;
+}
+
+span {color: #800000; 
+    text-shadow: -2px -2px 11px;
+}
+
+/* the styles for the section */
+main {
+    clear: both;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+main h1 { 
+    border: 3px double #931420 ;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 1px 1px rgb(134, 81, 134);
+    font-size: 150%; 
+    padding-top:.3em;
+    padding-bottom: .3em;
+}
+main h2 { 
+    font-size: 150%;  
+    color: #800000; 
+    padding-top:.5em;
+    padding-bottom:.25em;
+}
+main p {
+    padding-bottom: .5em;
+}
+main blockquote {
+    padding-right:2em;
+    padding-left: 2em;
+    font-style: italic;
+}
+main ul {
+    padding-bottom: .25em;
+    padding-left: 1.25em;
+}
+main li {
+    padding-bottom: .35em;
+}
+main h3 { 
+    font-size: 105%;
+    padding-bottom: .25em;
+    padding-top: .25em; 
+}
+main img {
+    padding-bottom: 1em;
+}
+main a:link { 
+    font-style: normal; 
+}
+main a:hover, a:focus 
+{ 
+    font-style:italic;
+}
+
+/* the styles for the footer */
+footer {
+    background-color: #800000;
+    border-top:3px solid #931420;
+    border-bottom: 3px solid #931420;
+}
+footer p { 
+    text-align: center;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
